@@ -11,7 +11,7 @@
     tools:context="com.example.android.courtcounter.MainActivity">
 
     <TextView
-        android:id="@+id/main_text_team_name"
+        android:id="@+id/main_activity_text_team_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -19,7 +19,7 @@
         android:text="@string/main_text_team_a"/>
 
     <TextView
-        android:id="@+id/main_text_team_a_score"
+        android:id="@+id/main_activity_text_team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -28,24 +28,24 @@
 
 
     <Button
-        android:id="@+id/main_button_score_three_points"
+        android:id="@+id/main_activity_button_score_three_points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/main_button_score_bottom_margin"
-        android:text="@string/main_text_three_points"/>
+        android:text="@string/main_text_three_points" />
 
     <Button
-        android:id="@+id/main_button_score_two_points"
+        android:id="@+id/main_activity_button_score_two_points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/main_button_score_bottom_margin"
-        android:text="@string/main_text_two_points"/>
+        android:text="@string/main_text_two_points" />
 
     <Button
-        android:id="@+id/main_button_score_free_throw"
+        android:id="@+id/main_activity_button_score_free_throw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/main_button_score_bottom_margin"
         android:text="@string/main_text_free_throw"
-        android:textAllCaps="true"/>
+        android:textAllCaps="true" />
 </LinearLayout>
