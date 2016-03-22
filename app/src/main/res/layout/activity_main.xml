@@ -24,7 +24,9 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginBottom="@dimen/main_text_bottom_margin"
-        android:text="0"/>
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
 
 
     <Button
