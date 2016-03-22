@@ -9,19 +9,21 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = (TextView) findViewById(R.id.main_activity_text_team_a_score)
+    TextView scoreTeamA = (TextView) findViewById(R.id.main_activity_text_team_a_score)
+    int scoreTeamA = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    Button threePointButton = (Button) findViewById(R.id.main_activity_button_score_three_points);
-    threePointButton.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-        }
-    });
+        Button threePointButtonTeamA = (Button) findViewById(R.id.main_activity_button_score_three_points);
+        threePointButtonTeamA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                scoreTeamA++;
+            }
+        });
 
     }
 }
