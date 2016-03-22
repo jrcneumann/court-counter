@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView scoreTeamA = (TextView) findViewById(R.id.main_activity_text_team_a_score)
     int scoreTeamA = 0;
 
     @Override
@@ -23,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 scoreTeamA++;
             }
-        });
-
+        }
     }
 }
