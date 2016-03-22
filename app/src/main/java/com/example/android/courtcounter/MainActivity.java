@@ -20,7 +20,15 @@ public class MainActivity extends AppCompatActivity {
         threePointButtonTeamA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                scoreTeamA++;
+                scoreTeamA += 3;
+            }
+        });
+
+        Button twoPointButtonTeamA = (Button) findViewById(R.id.main_activity_button_score_two_points);
+        twoPointButtonTeamA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                scoreTeamA += 2;
             }
         });
     }
